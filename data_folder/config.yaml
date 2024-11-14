@@ -4,20 +4,20 @@ onsite: true
 
 experience_level:
   internship: false
-  entry: true
-  associate: true
-  mid_senior_level: true
-  director: false
-  executive: false
+  entry: false 
+  associate: false 
+  mid_senior_level: false 
+  director: true 
+  executive: true 
 
 job_types:
   full_time: true
   contract: false
   part_time: false
-  temporary: true
+  temporary: false 
   internship: false
   other: false
-  volunteer: true
+  volunteer: false 
 
 date:
   all_time: false
@@ -26,30 +26,29 @@ date:
   24_hours: true
 
 positions:
-  - Software engineer
+  - Head of Professional Services
+  - VP of Professional Services
+  - VP Professional Services
+  - Director of Professional Services
+  - Director Professional Services
 
 locations:
-  - Germany
+  - United States 
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
 
 title_blacklist:
-  - word1
-  - word2
 
 location_blacklist:
-  - Brazil
 
 job_applicants_threshold:
   min_applicants: 0
   max_applicants: 30
 
 llm_model_type: openai
-llm_model: 'gpt-4o-mini'
-# llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
+llm_model: 'gpt-4o'
+llm_api_url: https://api.pawan.krd/cosmosrp/v1'
